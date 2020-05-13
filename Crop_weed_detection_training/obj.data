@@ -1,0 +1,5 @@
+classes = 2 
+train = data/train.txt
+val = data/test.txt
+names = data/obj.names
+backup= /mydrive/Agriculture/backup/
