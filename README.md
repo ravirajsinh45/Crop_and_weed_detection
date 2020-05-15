@@ -73,7 +73,7 @@ Data on https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-b
           ```
           (pytorchenv) C:\Users\user\Crop_and_weed_detection> pip install -r requirements.txt 
           ```
-   * Now your evironment is ready to roar:)
+   * Now your environment is ready to roar:)
 
    * Let Open jupyter lab
 
