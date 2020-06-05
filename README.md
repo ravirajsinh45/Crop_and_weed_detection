@@ -35,19 +35,19 @@ Data on https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-b
     1. Training 
     2. Performig detection using pre train model
         - Using pytorch
-        - Using openCV
+        - Using openCV (skip installation using requirements.txt file)
 
 
-1. Training:-
+## Training:-
  
     For traning you have to make **Agriculture** folder on your google drive, open clone repo and copy all files from `Crop_weed_detection_training` folder and paste it in google drive.
 
     Now from drive open crop_weed_detection.ipynb file and you will get all documentation regarding it within the file.
 
 
-2. Performig detection using pre-trained model
+### setting up environment:-
 
-   * First of all you need anaconda, if you don't have click here for [Download](https://www.anaconda.com/products/individual) and install.
+ * First of all you need anaconda, if you don't have click here for [Download](https://www.anaconda.com/products/individual) and install.
 
     * Now open Anaconda Prompt and clone this repo
    ```
@@ -82,8 +82,8 @@ Data on https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-b
    
    * You have to add weights flie into `Crop_and_weed_detection > performing_detection > data > weights` folder.
 
-
-## Using pytorch
+## Performig detection using pre-trained model
+### Using pytorch
    * Let Open jupyter lab
 
       ```
@@ -92,10 +92,18 @@ Data on https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-b
  
 
 
-   * After that open [performing_detection_with_pytorch.ipynb](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/performing_detection/pytorch/performing_detection_with_pytorch.ipynb) and follow alonge. After this you will able to detect crop and weed from images. Explore images from [images](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/performing_detection/data/images) folder. Cheers:)
+   * After that open [performing_detection_with_pytorch.ipynb](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/performing_detection/pytorch/performing_detection_with_pytorch.ipynb) and follow alonge. After this you will able to detect crop and weed from images. Explore images from [images](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/performing_detection/data/images) folder.
 
-## Using OpenCV:-
+### Using OpenCV:-
 
+  * This easy compare to pytorch implementation and for this you don't need pytorch.
+
+  * if you have opencv library already installed (opencv included in requirements.txt), skip this step else run below code
+    ```
+    pip install opencv-python
+    ```
+  
+  * open [detection_with_opencv.ipynb](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/performing_detection/opencv/detection_with_opencv.ipynb) and just run cell. Play with parameters and [images](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/performing_detection/data/images). cheers....!
 
 
  # Thank You:) 
