@@ -1,10 +1,10 @@
 # Crop_and_weed_detection
 we made the crop and weed detection model using YOLOV3 on agricultural image data.
-![](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/detection_on_images_pytorch/detection/detection.jpg)
+![](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/performing_detection/data/detection/detection.jpg)
 
 
 
-![](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/detection_on_images_pytorch/detection/detection_1.jpeg)
+![](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/performing_detection/data/detection/detection_1.jpeg)
 
 # Problem
 Weed is unwanted thing in agriculture. Weed use the nutrients, water ,land and many more thihngs that might have gone to crops.Which result less production of required crop.Farmer often use pesticides to remove weed which also affective but some pesticide may stick with crop and may causs problem for humans.
@@ -34,6 +34,8 @@ Data on https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-b
 
     1. Training 
     2. Performig detection using pre train model
+        - Using pytorch
+        - Using openCV
 
 
 1. Training:-
@@ -43,7 +45,7 @@ Data on https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-b
     Now from drive open crop_weed_detection.ipynb file and you will get all documentation regarding it within the file.
 
 
-2. Performig detection using pre train model
+2. Performig detection using pre-trained model
 
    * First of all you need anaconda, if you don't have click here for [Download](https://www.anaconda.com/products/individual) and install.
 
@@ -74,17 +76,26 @@ Data on https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-b
           (pytorchenv) C:\Users\user\Crop_and_weed_detection> pip install -r requirements.txt 
           ```
    * Now your environment is ready to roar:)
+   
+   * For detection you need weights for network. Due to large file i attaching google drive link. You have to download weight file unless you have your own weights file. [click here](https://drive.google.com/open?id=1-Aam2D-fqnwecbeHwa4rtzxtNjwcDkP6)
 
+   
+   * You have to add weights flie into `Crop_and_weed_detection > performing_detection > data > weights` folder.
+
+
+## Using pytorch
    * Let Open jupyter lab
 
       ```
      (pytorchenv) C:\Users\user\Crop_and_weed_detection>jupyter-lab
      ```
-   * For detection you need weights for network. Due to large file i attaching google drive link. You have to download weight file unless you have your own weights file. [click here](https://drive.google.com/open?id=1-Aam2D-fqnwecbeHwa4rtzxtNjwcDkP6)
+ 
 
-   * You have to add weights flie into `Crop_and_weed_detection > detection_on_images_pytorch > weights` folder.
 
-   * After that open **Perform_detection.ipynb** file and run all cell. After this you will able to detect crop and weed from images. Explore images from **images** folder. Cheers:)
+   * After that open [performing_detection_with_pytorch.ipynb](https://github.com/ravirajsinh45/Crop_and_weed_detection/performing_detection/pytorch/performing_detection_with_pytorch.ipynb) and follow alonge. After this you will able to detect crop and weed from images. Explore images from [images](https://github.com/ravirajsinh45/Crop_and_weed_detection/performing_detection/data/images) folder. Cheers:)
+
+## Using OpenCV:-
+
 
 
  # Thank You:) 
