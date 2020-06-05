@@ -92,7 +92,7 @@ Data on https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-b
  
 
 
-   * After that open [performing_detection_with_pytorch.ipynb](https://github.com/ravirajsinh45/Crop_and_weed_detection/performing_detection/pytorch/performing_detection_with_pytorch.ipynb) and follow alonge. After this you will able to detect crop and weed from images. Explore images from [images](https://github.com/ravirajsinh45/Crop_and_weed_detection/performing_detection/data/images) folder. Cheers:)
+   * After that open [performing_detection_with_pytorch.ipynb](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/performing_detection/pytorch/performing_detection_with_pytorch.ipynb) and follow alonge. After this you will able to detect crop and weed from images. Explore images from [images](https://github.com/ravirajsinh45/Crop_and_weed_detection/blob/master/performing_detection/data/images) folder. Cheers:)
 
 ## Using OpenCV:-
 
