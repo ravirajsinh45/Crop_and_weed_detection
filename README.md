@@ -40,9 +40,9 @@ Data on https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-b
 
 ## Training:-
  
-    For traning you have to make **Agriculture** folder on your google drive, open clone repo and copy all files from `Crop_weed_detection_training` folder and paste it in google drive.
+ * For traning you have to make **Agriculture** folder on your google drive, open clone repo and copy all files from `Crop_weed_detection_training` folder and paste it in google drive.
 
-    Now from drive open crop_weed_detection.ipynb file and you will get all documentation regarding it within the file.
+ * Now from drive open crop_weed_detection.ipynb file and you will get all documentation regarding it within the file.
 
 
 ### setting up environment:-
@@ -71,7 +71,7 @@ Data on https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-b
           ```
           (base) C:\Users\user\Crop_and_weed_detection> conda activate pytorchenv
          ```
-      3.  Now run below command for install liraries
+      3.  Now run below command for install libraries
           ```
           (pytorchenv) C:\Users\user\Crop_and_weed_detection> pip install -r requirements.txt 
           ```
