@@ -40,7 +40,7 @@ pandas==1.0.3
 pandocfilters==1.4.2
 parso==0.7.0
 pickleshare==0.7.5
-Pillow==7.1.2
+Pillow==8.1.1
 prometheus-client==0.7.1
 prompt-toolkit==3.0.5
 pycparser==2.20
