@@ -1,7 +1,7 @@
 attrs==19.3.0
 backcall==0.1.0
 bleach==3.3.0
-certifi==2020.12.5
+certifi==2022.12.7
 cffi @ file:///C:/ci/cffi_1613247308275/work
 chardet==3.0.4
 colorama==0.4.3
