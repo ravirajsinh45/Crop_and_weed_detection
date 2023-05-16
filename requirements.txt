@@ -24,7 +24,7 @@ requests
 scipy==1.5.2
 seaborn==0.10.1
 
-torch==1.1.0
+torch==1.13.1
 torchvision==0.3.0
 
 tqdm
